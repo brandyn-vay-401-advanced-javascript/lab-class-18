@@ -1,7 +1,7 @@
 'use strict';
 
 const io = require('socket.io-client');
-const socket = io.connect('http://localhost:3001');
+const socket = io.connect('http://localhost:3000');
 const faker = require('faker');
 const util = require('util');
 const fs = require('fs');

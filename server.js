@@ -1,6 +1,11 @@
 'use strict';
 
-const io = require('socket.io')(3001);
+const io = require('socket.io')(3000);
+const express = require('express');
+
+const app = express();
+
+app.use('/docs', express.static('docs'));
 
 io.on('connection', (socket) => {
   console.log('Connected Yo', socket.id);
