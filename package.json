@@ -13,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "faker": "^4.1.0",
-    "jsdoc": "3.6.3",
-    "prompt": "^1.0.0",
+    "jsdoc": "4.0.0",
+    "prompt": "^1.2.0",
     "prompt-sync": "^4.1.6",
     "readline-sync": "^1.4.9",
     "socket.io": "^2.2.0",
